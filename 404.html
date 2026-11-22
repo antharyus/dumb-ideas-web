@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+    />
+    <title>Dumb Ideas</title>
+
+    <!-- Fond posé avant le JS : pas de flash blanc au chargement.
+         viewport-fit=cover active les safe areas iOS (encoche + barre home),
+         100dvh suit la barre d'adresse mobile qui se replie. -->
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        background-color: #0a0a0c;
+      }
+      body {
+        overflow: hidden;
+        overscroll-behavior: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-text-size-adjust: 100%;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        height: 100dvh;
+      }
+    </style>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Dumb Ideas" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" content="#0A0A0C">
+<meta name="description" content="Dumb Ideas — le Tinder des idées absurdes. Swipe à gauche pour le con, à droite pour le génie.">
+<link rel="icon" href="/dumb-ideas-web/favicon.ico"/></head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/dumb-ideas-web/_expo/static/js/web/__expo-metro-runtime-97703ae02682710149335928b974f18d.js" defer></script><script src="/dumb-ideas-web/_expo/static/js/web/__common-df94aae95e7db15ef38c65d74d26e5e4.js" defer></script><script src="/dumb-ideas-web/_expo/static/js/web/entry-98d39f916d258b1caaff86e2196f932f.js" defer></script>
+</body>
+</html>
